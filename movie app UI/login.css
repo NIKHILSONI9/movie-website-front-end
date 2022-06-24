@@ -38,26 +38,39 @@ label{
     padding-left: 8px;  
       
 }  
-#log{  
+.log{
     width: 309px;  
-    height: 35px;  
+    height: 30px;  
     border: none;
     border-radius: 4px;   
     padding-left: 7px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     background-color: rgb(98, 0, 255);
-    color: rgb(246, 246, 250);  
+      
+
+}
+.log a{  
+    color: rgb(255, 255, 255);
+     
+    border: none;
+    border-radius: 4px;   
+    padding-left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    
     
 } 
-#log:hover{
+.log:hover{
     background-color: rgb(255, 255, 255);
-    color: rgb(98, 0, 255);  
 
 } 
+.log a:hover{
+    color: #000000e3;
+}
+
 a{  
-    color: rgb(66, 64, 64);  
+    text-decoration: none;
+    color: rgb(133, 133, 133);  
     font-size: 17px;
-    padding-left: 20%;
+    margin-left: 20%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }  
@@ -74,11 +87,19 @@ h5{
 .signup:hover{
     color: #ffffff;
 }
-a{
-    color: #707977;
-    text-decoration: none;
-
-}
 a:hover{
     color: #ffffff;
+}
+#btn{
+    border: none;
+    background-color: rgb(111, 0, 255);
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    margin-left: 2%;
+}
+#btn:hover{
+    background-color: #ffffff;
+    color: rgb(111, 0, 255)
 }
