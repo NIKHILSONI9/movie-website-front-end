@@ -9,6 +9,10 @@
     margin-top: 50px;
     margin-left: 50%;
 }
+#btn:hover{
+    background-color: #ffffff;
+    color: rgb(0, 110, 255)
+}
 .signup{
     width: 400px;
     height: 528px;

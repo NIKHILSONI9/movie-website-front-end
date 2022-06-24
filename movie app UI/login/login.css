@@ -48,7 +48,12 @@ label{
     background-color: rgb(98, 0, 255);
     color: rgb(246, 246, 250);  
     
-}  
+} 
+#log:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(98, 0, 255);  
+
+} 
 a{  
     color: rgb(66, 64, 64);  
     font-size: 17px;
@@ -65,4 +70,15 @@ h5{
     background-color:#1d1b1be3;
     border-style: none;
     padding-left: 90%;
+}
+.signup:hover{
+    color: #ffffff;
+}
+a{
+    color: #707977;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #ffffff;
 }
