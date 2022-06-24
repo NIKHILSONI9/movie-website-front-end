@@ -4,48 +4,90 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <title>Movies</title>
   </head>
   <body>
     <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            <div class="main">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                  </ul>
+      <a href="#default" class="logo"></a>
+      <input type="text" class="search" placeholder="Search for Movies or TV Shows ">
+      <div class="header-right">
+        <a class="active" href="#home">Movie</a>
+        <a href="#contact">TV Shows</a>
+        <a href="#about">Watchlist</a>
+    
+        
+      </div>
+    </div>
+    <div class="main">
+      <div class="float-main">
+        <div class="movies">
+          <h1>Weekly Top Rated! <span style="font-size:125%;color:rgb(255, 255, 0);">&starf;</span></h1>
+          <div class="mov">
+            <div class="mov1">
+              <div class="img1"></div>
+              <div><a href="#">Captian marvel </a>
+                 <div class="rating">4.5 
+                  <span style="font-size:125%;color:yellow;">&starf;</span>
                 </div>
-
+              </div>
             </div>
-            
-          </nav>
+            <div class="mov2">
+              <div class="img2"></div>
+              <div><a href="#">Bohemian Rhaspody</a><div class="rating">4.6 <span style="font-size:125%;color:yellow;">&starf;</span></div></div>
+            </div>
+            <div class="mov3">
+              <div class="img3"></div>
+              <div><a href="#">Green Book</a><div class="rating">4.7<span style="font-size:125%;color:yellow;">&starf;</span></div></div>
+            </div>
+            <div class="mov4">
+              <div class="img4"></div>
+              <div><a href="#">A Star is Born</a><div class="rating">4.8<span style="font-size:125%;color:yellow;">&starf;</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="float-main">
+        <div class="trailers">
+          <h2>New Trailers</h2>
+          <div class="trail">
+            <div class="trail1">
+              <iframe  src="https://www.youtube.com/embed/8ugaeA-nMTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4>Iron Man Trailer</h4>
+            </div>
+            <div class="trail2">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4>End Game Trailer</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subs">
+      <div class="genre">
+          <h2 >Genre</h2>
+          <a href="#!">Action</a>
+          <br><br>
+          <a href="#!">Drama</a>
+          <br><br>
+          <a href="#!">Comedy</a>
+          <br><br>
+          <a href="#!">Romance</a>
+      </div>
+      <br>
+      <div class="genre1">
+        <h2 >Language</h2>
+          <a href="#">Hindi</a>
+          <br><br>
+          <a href="#">English</a>
+          <br><br>
+          <a href="#">Malayalam</a>
+          <br><br>
+          <a href="#">Tamil</a>
+      </div>
+      </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
   </body>
 </html>
